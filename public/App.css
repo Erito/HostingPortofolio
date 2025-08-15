@@ -34,7 +34,9 @@
         gap: 8px;
     }
     .socials a:nth-child(3) {
-        flex-basis: 100%;
+        display: block;
+        width: auto;
+        margin-top: 8px;
     }
 }
 
