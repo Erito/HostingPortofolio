@@ -1,7 +1,7 @@
 import img from "./asset/profile.png";
 
 function App() {
-  console.log("==================================This is the portfolio of TITUS ERICSON BIANTO================================");
+  console.log("=========This is the portfolio of TITUS ERICSON BIANTO==========");
   return (
     <div className="portfolio-container">
       <header className="portfolio-header">
