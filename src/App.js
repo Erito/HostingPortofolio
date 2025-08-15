@@ -38,7 +38,7 @@ function App() {
             About <span>Me, </span>
           </h1>
           <p>
-            A 2024 Informatics undergraduate student with a strong interest in
+            I'm a 2024 Informatics undergraduate student with a strong interest in
             web development. I have foundational skills in HTML, CSS, and
             JavaScript, and am currently expanding my knowledge in modern
             frameworks such as React. I enjoy working both independently and
