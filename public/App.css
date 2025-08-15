@@ -29,9 +29,12 @@
 }
 @media (max-width: 600px) {
     .socials {
-        flex-direction: column;
-        align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
         gap: 8px;
+    }
+    .socials a:nth-child(3) {
+        flex-basis: 100%;
     }
 }
 
