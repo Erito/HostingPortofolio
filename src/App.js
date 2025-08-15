@@ -97,7 +97,7 @@ function App() {
               <p>
                 - Student Council (OSIS) — Staff, Information and Communication
                 Technology Division (2023 - 2024)
-                <br />
+                <br /><br />
                 - Introduction to Informatics Study Program (PPIF) — MODULE
                 Division (2025)
                 <br />
@@ -109,14 +109,15 @@ function App() {
               <h3>Achievements</h3>
               <p>
                 - Chair of Dharmantion Committee (2024)
-                <br />
+                <br /><br />
                 - Admin Media Social (Youtube, Instagram, Tiktok) Dharma Putra
                 High School (2023 - 2024)
-                <br />
+                <br /><br />
                 - Winner of Viretta Cup 2022 - 1st Place (Band)
-                <br />
+                <br /><br />
                 - Winner of D'Radiance 2023 - 2nd Place (Band)
-                <br />- Winner of The Voustars 2023 - 2nd Place (Band)
+                <br /><br />
+                - Winner of The Voustars 2023 - 2nd Place (Band)
               </p>
             </div>
           </div>
