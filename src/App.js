@@ -19,7 +19,7 @@ function App() {
             web development. I have foundational skills in HTML, CSS, and
             JavaScript, and am currently expanding my knowledge in modern
             frameworks such as React. I enjoy working both independently and
-            collaboratively, with a focus on creating functional, responsive,
+            collaboratively with a focus on creating functional, responsive,
             and user-friendly websites. I am committed to continuous learning
             and eager to contribute to projects and organizational activities.
           </p>
@@ -58,7 +58,7 @@ function App() {
                 <br />
                 - Responsive Web Design
                 <br />
-                - React (Basic understanding)
+                - React (Basic Understanding)
                 <br />
                 - Git and GitHub
                 <br />- C, C++
