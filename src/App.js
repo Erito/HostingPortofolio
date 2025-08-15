@@ -6,11 +6,11 @@ function App() {
   );
   return (
     <div id="home" className="portfolio-container">
+      <div className="profile">
+        <img src={img} alt="Profile" className="profile-img" />
+        <h2>Titus Ericson Bianto</h2>
+      </div>
       <header className="portfolio-header">
-        <div className="profile">
-          <img src={img} alt="Profile" className="profile-img" />
-          <h2>Titus Ericson Bianto</h2>
-        </div>
         <nav className="main-nav">
           <a href="#home">Home</a>
           <a href="#about">About</a>
@@ -23,15 +23,21 @@ function App() {
           <h1>
             I'm <span>Titus, </span>
           </h1>
-          <p id="about">
-            A Creative Person and am used to creating content such as articles, videos or images for social media.<br /><br />My creativity also plays an important role in improving my leadership skills so that i can find solutions when there are obstacles
+          <p>
+            A Creative Person and am used to creating content such as articles,
+            videos or images for social media.
+            <br />
+            <br />
+            My creativity also plays an important role in improving my
+            leadership skills so that i can find solutions when there are
+            obstacles
           </p>
         </section>
-        <section className="intro">
+        <section id="about" className="intro">
           <h1>
             About <span>Me, </span>
           </h1>
-          <p id="skills">
+          <p>
             A 2024 Informatics undergraduate student with a strong interest in
             web development. I have foundational skills in HTML, CSS, and
             JavaScript, and am currently expanding my knowledge in modern
@@ -40,7 +46,7 @@ function App() {
             user-friendly websites. I am committed to continuous learning and
             eager to contribute to projects and organizational activities.
           </p>
-          <div className="socials">
+          <div id="skills" className="socials">
             <a href="https://github.com/Erito">GitHub</a>
             <a href="https://www.linkedin.com/in/titus-ericson-bianto-31a956314/">
               LinkedIn
@@ -48,7 +54,7 @@ function App() {
             <a href="https://www.instagram.com/titus_erito/">Instagram</a>
           </div>
         </section>
-        <section  className="services">
+        <section className="services">
           <h2>My Skills</h2>
         </section>
         <section className="cards">
@@ -104,13 +110,13 @@ function App() {
               <p>
                 - Chair of Dharmantion Committee (2024)
                 <br />
-                - Admin Media Social (Youtube, Instagram, Tiktok) Dharma Putra High School (2023 - 2024)
+                - Admin Media Social (Youtube, Instagram, Tiktok) Dharma Putra
+                High School (2023 - 2024)
                 <br />
                 - Winner of Viretta Cup 2022 - 1st Place (Band)
                 <br />
                 - Winner of D'Radiance 2023 - 2nd Place (Band)
-                <br />
-                - Winner of The Voustars 2023 - 2nd Place (Band)
+                <br />- Winner of The Voustars 2023 - 2nd Place (Band)
               </p>
             </div>
           </div>
