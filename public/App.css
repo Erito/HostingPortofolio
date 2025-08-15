@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @media (max-width: 900px) {
     .portfolio-container {
         padding: 16px;
@@ -35,6 +39,17 @@
     }
     .socials a:nth-child(3) {
         flex-basis: 20%;
+    }
+}
+@media (max-width: 600px) {
+    .main-nav {
+        gap: 8px;
+        font-size: 1rem;
+    }
+    .portfolio-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px 8px;
     }
 }
 
@@ -235,4 +250,35 @@ body {
     font-size: 1.1rem;
     flex-wrap: wrap;
 }
+
+.main-nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.main-nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 6px 16px;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.main-nav a:hover {
+    background: #ffd700;
+    color: #23243a;
+}
+
+.portfolio-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #23243a;
+    padding: 16px 32px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
 
