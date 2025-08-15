@@ -32,11 +32,14 @@
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
+        justify-content: center;
+        align-items: center;
     }
     .socials a:nth-child(3) {
-        display: block;
         width: auto;
-        margin-top: 8px;
+        display: block;
+        margin: 12px auto 0 auto;
+        text-align: center;
     }
 }
 
