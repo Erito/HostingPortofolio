@@ -82,7 +82,6 @@ function App() {
         <div className="footer-content">
           <span>📞 087888082449</span>
           <span>📩 Titusbianto38@gmail.com</span>
-          <span>🏠 Tangerang, Indonesia</span>
         </div>
       </footer>
       </main>
