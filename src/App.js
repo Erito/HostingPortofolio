@@ -1,9 +1,11 @@
+import img from "./asset/profile.png";
+
 function App() {
   return (
     <div className="portfolio-container">
       <header className="portfolio-header">
         <div className="profile">
-          <img src={"/assets/profile.png"} alt="Profile" className="profile-img" />
+          <img src={img} alt="Profile" className="profile-img" />
           <h2>Titus Ericson Bianto</h2>
         </div>
       </header>
