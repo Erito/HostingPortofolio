@@ -41,8 +41,9 @@ html {
         flex-basis: 20%;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .main-nav {
+        margin-top: 18px;
         gap: 8px;
         font-size: 1rem;
     }
@@ -253,7 +254,7 @@ body {
 
 .main-nav {
     display: flex;
-    gap: 24px;
+    gap: 15px;
     align-items: center;
 }
 
@@ -261,7 +262,7 @@ body {
     color: #ffd700;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 6px 16px;
     border-radius: 8px;
     transition: background 0.2s, color 0.2s;
@@ -275,7 +276,7 @@ body {
 .portfolio-header {
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 1;
     background: #23243a;
     padding: 16px 32px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
