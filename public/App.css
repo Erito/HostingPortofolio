@@ -34,7 +34,7 @@
         gap: 8px;
     }
     .socials a:nth-child(3) {
-        flex-basis: 50%;
+        flex-basis: 20%;
     }
 }
 
