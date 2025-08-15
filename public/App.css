@@ -205,6 +205,11 @@ body {
     background: #393a56;
     display: inline-block;
     vertical-align: middle;
+    transition: transform 0.3s cubic-bezier(.4,2,.3,1);
+}
+.profile-img:hover {
+    transform: scale(1.5);
+    z-index: 2;
 }
 .profile {
     display: flex;
